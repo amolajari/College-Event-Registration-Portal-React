@@ -12,9 +12,11 @@ const Admin = () => {
   },[])
   console.log(allValue)
   return (
-    <div>
-      <div className='w-full mt-10'>
-      <table class="min-w-full divide-y divide-gray-200">
+    <div className='bg-lime-300 h-screen -mt-2 flex'>
+      <div className=' w-full mt-10'>
+      <h1 className='mx-4 my-6 text-xl font-semibold'>PARTICIPANTS DATABASE</h1>
+
+      <table class="min-w-full divide-y divide-gray-200 ">
         <thead className=''>
           <tr>
             <th class="px-6 py-5 border bg-gray-400 border-black text-left text-lg leading-4 font-medium text-Black-500 uppercase tracking-wider">Name</th>

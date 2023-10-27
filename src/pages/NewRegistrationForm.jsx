@@ -32,11 +32,13 @@ const NewRegistrationForm = (props) => {
     }
   }
   return (
-    <div>
+    <div className='bg-lime-300 h-screen -mt-2 flex justify-center items-center'>
         
-        <div className='flex flex-col mx-20 my-20 bg-white border-2 border-black w-1/3 rounded-lg shadow-sm py-5 px-5'>
+        <div className='bg-white border-2 border-black w-1/3 rounded-lg shadow-sm py-5 px-5'>
+        <h1 className='mx-4 my-8 text-xl font-semibold'>Contest Registration Form</h1>
+          
           <form onSubmit={submitHandler}>
-              <div className='my-6 text-xl'>
+              <div className='my-4 text-xl'>
                 <label htmlFor='fullName' className='mx-4'>Full Name:</label>
                 <input 
                 type='text' 
