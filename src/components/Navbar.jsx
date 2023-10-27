@@ -6,7 +6,9 @@ const Navbar = () => {
     <>
     <nav>
     <div className='inline-block bg-black text-white w-full p-8'>
-      <div className='float-left font-bold text-3xl'>SOFTCLONES</div>
+      <div className='float-left font-bold text-3xl'>
+        <Link to='/'>SOFTCLONES</Link>
+      </div>
       <div className='text-xl'>
         <ul className='inline-flex float-right'>
           <li className='mx-5'>
